@@ -1,0 +1,34 @@
+# Recon output — never commit target data
+targets/
+recon/
+live/
+subdomains/
+*.jsonl
+open_ports.txt
+wildcard_dns.json
+
+# Scope files may contain private programme detail
+scope.md
+!examples/scope.md
+
+# Secrets / environment
+.env
+*.env
+*.key
+*.pem
+credentials*
+secrets*
+*_tokens*
+provider-config.yaml
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+*.swp
+.idea/
+.vscode/
